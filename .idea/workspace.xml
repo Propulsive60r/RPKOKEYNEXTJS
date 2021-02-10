@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7de5a9-46ee-4f07-9b85-a7e4a686452f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/services.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/largeformatprinting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/largeformatprinting/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/outdooradvertising/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/outdooradvertising/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/typography/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/typography/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +48,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/largeformatprinting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\webDev\RPKOKEYNEXTJS\components" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS\pages" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\webDev\RPKOKEYNEXTJS\components" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\pages\largeformatprinting" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\pages\typography" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\pages\outdooradvertising" />
@@ -64,7 +75,8 @@
       <updated>1612892280241</updated>
       <workItem from="1612892281369" duration="139000" />
       <workItem from="1612892446690" duration="616000" />
-      <workItem from="1612893696013" duration="5214000" />
+      <workItem from="1612893696013" duration="5220000" />
+      <workItem from="1612976511958" duration="7932000" />
     </task>
     <servers />
   </component>
@@ -81,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1612894106594">
