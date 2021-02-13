@@ -3,6 +3,7 @@ import Head from "next/head";
 import Services from "./services/services";
 import Header from "./header/Header";
 import Menu from "./menu/Menu";
+import Title from "./title/Title";
 
 
 export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
@@ -15,6 +16,7 @@ export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
             <nav className="container">
                 <Header/>
                 <Menu/>
+                <Title/>
             </nav>
             <main className="container">
                 <Services/>
