@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Head from "next/head";
-import Services from "./services";
+import Services from "./services/services";
 import Header from "./header/Header";
+import Menu from "./menu/Menu";
 
 
 export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
@@ -13,9 +14,7 @@ export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
             </Head>
             <nav className="container">
                 <Header/>
-                <p>
-                    Навигация
-                </p>
+                <Menu/>
             </nav>
             <main className="container">
                 <Services/>

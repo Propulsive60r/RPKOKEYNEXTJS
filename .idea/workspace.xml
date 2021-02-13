@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7de5a9-46ee-4f07-9b85-a7e4a686452f" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/RPKOKEYNEXTJS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RPKOKEYNEXTJS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainLayout.js" afterDir="false" />
@@ -28,6 +29,9 @@
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +85,11 @@
       <workItem from="1612892446690" duration="616000" />
       <workItem from="1612893696013" duration="5220000" />
       <workItem from="1612976511958" duration="7932000" />
+<<<<<<< Updated upstream
       <workItem from="1613133670035" duration="3977000" />
+=======
+      <workItem from="1613062442242" duration="719000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

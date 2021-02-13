@@ -1,10 +1,10 @@
 // Переменные для блока
-$cz:1110px;
-$colorgray:#f7f7f7;
-$colorgray2:hsl(0, 0%, 92%);
-$colorgray3:hsl(0, 0%, 94%);
-$colorbrend:#33379f;
-$up:15px;
+$cz: 1110px;
+$colorgray: #f7f7f7;
+$colorgray2: hsl(0, 0%, 92%);
+$colorgray3: hsl(0, 0%, 94%);
+$colorbrend: #33379f;
+$up: 15px;
 
 .header {
   display: flex;
@@ -15,12 +15,11 @@ $up:15px;
   flex-wrap: wrap;
 }
 
-.tplheader, .headerInnerSmm, .headerInnerUp {
+.headerInnerSmm, .headerInnerUp {
   border-left: 2px solid $colorgray;
   height: 60px;
   padding-left: 15px;
 }
-
 
 .headerInner {
   width: 220px;

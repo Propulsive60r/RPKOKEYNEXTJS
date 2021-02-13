@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 0 120px;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.1s linear;
+  color: #000;
+}
+
+.menu a:first-child {
+  color: #33379f;
+}
+
+.menu a:hover {
+  color: #33379f;
+}
