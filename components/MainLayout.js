@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from "next/head";
-import Services from "./services/services";
+import Services from "./services/Services";
 import Header from "./header/Header";
 import Menu from "./menu/Menu";
 import Title from "./title/Title";
