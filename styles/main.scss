@@ -1,6 +1,17 @@
-$backColor: #fafafa;
+// Переменные для блока
+$cz:1110px;
+
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: $backColor;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
 }
+
+.container {
+  max-width: $cz;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+

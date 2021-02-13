@@ -1,0 +1,71 @@
+// Переменные для блока
+$cz:1110px;
+$colorgray:#f7f7f7;
+$colorgray2:hsl(0, 0%, 92%);
+$colorgray3:hsl(0, 0%, 94%);
+$colorbrend:#33379f;
+$up:15px;
+
+.header {
+  display: flex;
+  padding: 20px 0;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid #f7f7f7;
+  flex-wrap: wrap;
+}
+
+.tplheader, .headerInnerSmm, .headerInnerUp {
+  border-left: 2px solid $colorgray;
+  height: 60px;
+  padding-left: 15px;
+}
+
+
+.headerInner {
+  width: 220px;
+}
+
+.headerInnerUp {
+  display: flex;
+  align-items: center;
+}
+
+.headerInnerText {
+  padding-left: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.urlText {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+.headerInnerSmm {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.headerInnerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #bbbbbb;
+  background-color: #f7f7f7;
+  border: 0;
+  text-decoration: none;
+  transition: background 0.1s linear;
+  margin-left: 10px;
+}
+
+.headerInnerItem:hover {
+  background-color: #33379f;
+  color: #fff;
+}

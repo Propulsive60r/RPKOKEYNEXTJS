@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f7de5a9-46ee-4f07-9b85-a7e4a686452f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/RPKOKEYNEXTJS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RPKOKEYNEXTJS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +49,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\webDev\RPKOKEYNEXTJS\components" />
-      <recent name="C:\webDev\RPKOKEYNEXTJS\pages" />
-      <recent name="C:\webDev\RPKOKEYNEXTJS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\webDev\RPKOKEYNEXTJS\public" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS\img" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\components" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\pages\largeformatprinting" />
       <recent name="C:\webDev\RPKOKEYNEXTJS\pages\typography" />
-      <recent name="C:\webDev\RPKOKEYNEXTJS\pages\outdooradvertising" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\webDev\RPKOKEYNEXTJS\public\images" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS\public" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS\components" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS\pages" />
+      <recent name="C:\webDev\RPKOKEYNEXTJS" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,21 +101,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1612894106594">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1806" height="295" key="GridCell.Tab.0.bottom" timestamp="1613200067194">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612894106594" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1612894106594">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1806" height="295" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1613200067194" />
+    <state width="1806" height="295" key="GridCell.Tab.0.center" timestamp="1613200067193">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612894106594" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1612894106594">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1806" height="295" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1613200067193" />
+    <state width="1806" height="295" key="GridCell.Tab.0.left" timestamp="1613200067193">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612894106594" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1612894106594">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1806" height="295" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1613200067193" />
+    <state width="1806" height="295" key="GridCell.Tab.0.right" timestamp="1613200067194">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612894106594" />
+    <state width="1806" height="295" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1613200067194" />
   </component>
 </project>
