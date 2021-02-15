@@ -1,6 +1,5 @@
-// import Link from "next/link"
-import ServiceBase from "./ServiceBase";
-// import s from './Services.scss'
+import Link from "next/link"
+import s from './Services.module.scss'
 
 const sBase = [
     {
@@ -33,8 +32,55 @@ export default function Services() {
 
     return (
         <>
-            <p>{sBase[0].title}</p>
-            <p>{sBase[0].description}</p>
+            <div className={s.services}>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <Link href={'/outdooradvertising'}><a><img className={s.serviceImg}
+                                                                   src={'images/work/advout.jpg'}
+                                                                   alt="Наружная реклама"/></a>
+                        </Link>
+                    </div>
+                    <Link href={'/outdooradvertising'}><a className={s.linkNoneColor}><h2>{sBase[0].title}</h2></a>
+                    </Link>
+                    <Link href={'/outdooradvertising'}><a className={s.linkNoneColor}><h3>{sBase[0].description}</h3></a>
+                    </Link>
+                </div>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <img className={s.serviceImg} src={'images/work/printout.jpg'} alt="Широкоформатная печать"/>
+                    </div>
+                    <h2>{sBase[1].title}</h2>
+                    <h3>{sBase[1].description}</h3>
+                </div>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <img className={s.serviceImg} src={'images/work/poliout.jpg'} alt="Полиграфия"/>
+                    </div>
+                    <h2>{sBase[2].title}</h2>
+                    <h3>{sBase[2].description}</h3>
+                </div>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <img className={s.serviceImg} src={'images/work/montajout.jpg'} alt="Монтажные работы"/>
+                    </div>
+                    <h2>{sBase[3].title}</h2>
+                    <h3>{sBase[3].description}</h3>
+                </div>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <img className={s.serviceImg} src={'images/work/desighnWeb.jpg'} alt="Создание сайтов"/>
+                    </div>
+                    <h2>{sBase[4].title}</h2>
+                    <h3>{sBase[4].description}</h3>
+                </div>
+                <div className={s.servicesItemS}>
+                    <div className={s.servicesItem}>
+                        <img className={s.serviceImg} src={'images/work/webMark.jpg'} alt="Интернет-маркетинг"/>
+                    </div>
+                    <h2>{sBase[5].title}</h2>
+                    <h3>{sBase[5].description}</h3>
+                </div>
+            </div>
         </>
     )
 }

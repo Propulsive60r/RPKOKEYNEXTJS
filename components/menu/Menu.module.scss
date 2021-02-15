@@ -1,3 +1,5 @@
+$colorHover: #33379f;
+
 .menu {
   display: flex;
   justify-content: space-around;
@@ -15,9 +17,9 @@
 }
 
 .menu a:first-child {
-  color: #33379f;
+  color: $colorHover;
 }
 
 .menu a:hover {
-  color: #33379f;
+  color: $colorHover;
 }

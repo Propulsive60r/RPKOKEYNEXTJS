@@ -1,3 +1,6 @@
+
+$colorHover: #33379f;
+
 .services {
   display: flex;
   width: 100%;
@@ -34,9 +37,13 @@
 }
 
 .servicesItemS h3 {
-
   margin-top: 12px;
   text-align: left;
   font-size: 14px;
   line-height: 1.7;
+}
+
+
+.linkNoneColor {
+  color: black;
 }

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import {MainLayout} from "../../components/MainLayout";
+import Services from "../../components/services/Services";
 
 export default function Index() {
     return (
@@ -12,7 +13,7 @@ export default function Index() {
             </Head>
 
             <h1>ИЗГОТОВЛЕНИЕ НАРУЖНОЙ РЕКЛАМЫ</h1>
-
+            <Services/>
         </MainLayout>
     )
 }

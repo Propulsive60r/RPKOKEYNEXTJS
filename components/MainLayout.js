@@ -19,7 +19,7 @@ export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
                 <Title/>
             </nav>
             <main className="container">
-                <Services/>
+
                 {children}
 
             </main>
