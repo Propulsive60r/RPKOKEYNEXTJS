@@ -1,0 +1,74 @@
+.cenrovka {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.g4Heading {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
+
+/*Discounts*/
+.discounts {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.discountsItem {
+  width: 360px;
+  height: 100%;
+  padding: 20px;
+  margin: 5px 5px;
+  border: 3px solid #ebebeb;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  transform: scale(0.9, 0.9);
+}
+
+.s1 {
+  padding: 80px 0 15px;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.s2 {
+  padding: 15px 0;
+  font-size: 36px;
+  color: #33379f;
+}
+
+.s3 {
+  padding: 15px 0;
+  border-bottom: 2px solid #ebebeb;
+  color: #33379f;
+  font-size: 20px;
+}
+
+.s4 {
+  padding: 15px 0 60px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cards {
+  height: 150px;
+  padding-top: 25px;
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.65;
+}

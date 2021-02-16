@@ -4,6 +4,7 @@ import Services from "./services/Services";
 import Header from "./header/Header";
 import Menu from "./menu/Menu";
 import Title from "./title/Title";
+import Discounts from "./shares/Discounts";
 
 
 export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
@@ -21,7 +22,7 @@ export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
             <main className="container">
 
                 {children}
-
+<Discounts/>
             </main>
             <footer className="container">
                 <p>
