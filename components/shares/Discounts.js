@@ -1,9 +1,10 @@
 import s from './Discounts.module.scss'
-
+import Fade from 'react-reveal/Fade';
 
 export default function Discounts() {
     return (
         <>
+            <Fade bottom>
             <div className={s.container}>
                 <h4 className={s.g4Heading}>Наши акции</h4>
 
@@ -86,6 +87,7 @@ export default function Discounts() {
                     </ul>
                 </div>
             </div>
+            </Fade>
         </>
     )
 }

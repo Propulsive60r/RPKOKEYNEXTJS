@@ -1,5 +1,7 @@
 import Link from "next/link"
 import s from './Services.module.scss'
+import Fade from 'react-reveal/Fade';
+
 
 const sBase = [
     {
@@ -32,6 +34,7 @@ export default function Services() {
 
     return (
         <>
+            <Fade>
             <div className={s.services}>
                 <div className={s.servicesItemS}>
                     <div className={s.servicesItem}>
@@ -81,6 +84,7 @@ export default function Services() {
                     <h3>{sBase[5].description}</h3>
                 </div>
             </div>
+            </Fade>
         </>
     )
 }
