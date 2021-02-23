@@ -1,11 +1,14 @@
 import s from './Header.module.scss'
+import Link from "next/link"
 
 export default function Header() {
     return (
+
+        //Навести порядок
         <>
             <div className={s.header}>
                 <div className={s.headerInner}>
-                    <a href="/"><img src={'images/logoOkey.png'} alt="Логотип РПК ОКЕЙ"/></a>
+                    <Link href="/"><a><img src={'images/logoOkey.png'} alt="Логотип РПК ОКЕЙ"/></a></Link>
                 </div>
                 <div className={s.headerInner}>
                     <div className={s.headerInnerUp}>

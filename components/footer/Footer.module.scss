@@ -1,0 +1,45 @@
+// Переменные для блока
+$cz: 1110px;
+$colorgray: #f7f7f7;
+$colorgray2: hsl(0, 0%, 92%);
+$colorgray3: hsl(0, 0%, 94%);
+$colorbrend: #33379f;
+$up: 15px;
+
+.footer {
+  display: grid;
+  padding: 25px;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid #f7f7f7;
+  grid-template-columns: 8fr 2fr;
+}
+
+.footerInnerSmm {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-left: 2px solid $colorgray;
+  height: 60px;
+  padding-left: 15px;
+}
+
+.footerInnerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #bbbbbb;
+  background-color: #f7f7f7;
+  border: 0;
+  text-decoration: none;
+  transition: background 0.1s linear;
+  margin-left: 10px;
+}
+
+.footerInnerItem:hover {
+  background-color: #33379f;
+  color: #fff;
+}

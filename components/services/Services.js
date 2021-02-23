@@ -30,6 +30,7 @@ const sBase = [
     }
 ]
 
+//разбить код на подкомпоненты
 export default function Services() {
 
     return (

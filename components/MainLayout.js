@@ -1,10 +1,14 @@
 import Link from 'next/link';
 import Head from "next/head";
-import Services from "./services/Services";
 import Header from "./header/Header";
 import Menu from "./menu/Menu";
-import Title from "./title/Title";
-import Discounts from "./shares/Discounts";
+import Discounts from "./discounts/Discounts";
+import Portfolio from "./sliderPortfolio/Portfolio";
+import {Feedback} from "./feedback/Feedback";
+import Fade from "react-reveal/Fade";
+import Footer from "./footer/Footer";
+import Partners from "./partners/Partners";
+
 
 
 export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
@@ -17,18 +21,26 @@ export function MainLayout({children, title = 'РПК ОКЕЙ'}) {
             <nav className="container">
                 <Header/>
                 <Menu/>
-                <Title/>
+
             </nav>
             <main className="container">
-
                 {children}
-<Discounts/>
+
+                <Fade bottom>
+                    <Discounts/>
+                </Fade>
+
+                <Fade>
+                    <Portfolio/>
+                    <Partners/>
+                    <Feedback/>
+                </Fade>
+
             </main>
             <footer className="container">
-                <p>
-                    Подвал
-                    <p><Link href={'/'}><a>В начало</a></Link></p>
-                </p>
+
+                <Footer/>
+
             </footer>
 
         </>

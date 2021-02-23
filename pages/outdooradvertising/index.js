@@ -1,6 +1,7 @@
 import Head from "next/head";
 import {MainLayout} from "../../components/MainLayout";
-import Services from "../../components/services/Services";
+import Outdoor from "../../components/contentServices/outdooradvertising/Outdoor";
+import OutdoorServices from "../../components/contentServices/outdooradvertising/OutdoorServices";
 
 export default function Index() {
     return (
@@ -12,8 +13,9 @@ export default function Index() {
                 <meta name="description" content="ИЗГОТОВЛЕНИЕ НАРУЖНОЙ РЕКЛАМЫ"/>
             </Head>
 
-            <h1>ИЗГОТОВЛЕНИЕ НАРУЖНОЙ РЕКЛАМЫ</h1>
-            <Services/>
+            <Outdoor/>
+            <OutdoorServices/>
+
         </MainLayout>
     )
 }

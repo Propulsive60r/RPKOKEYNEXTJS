@@ -1,10 +1,11 @@
 import s from './Menu.module.scss'
+import Link from "next/link";
 
 export default function Menu() {
     return (
         <>
             <div className={s.menu}>
-                <a href="#">Начало</a>
+                <Link href="/"><a>Начало</a></Link>
                 <a href="#">Наши уcлуги</a>
                 <a href="#">Акции</a>
                 <a href="#">Наши работы</a>
