@@ -23,7 +23,7 @@ const sBase = [
         title: 'Полиграфия',
         description: 'Изготовление любой печатной продукции. Листовки, флаеры, каталоги, буклеты, визитки, афиши, брошюры, журналы, календари.',
         link: '/typography',
-        src: 'images/work/printout.jpg',
+        src: 'images/work/poliout.jpg',
         alt: 'Полиграфия'
     },
     {
