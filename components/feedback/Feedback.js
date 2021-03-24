@@ -1,12 +1,13 @@
 import s from './Feedback.module.scss'
+import {FeedbackForm} from "./feedback/FeedbackForm";
+import {FeedbackApplication} from "./application/FeedbackApplication";
 
 export function Feedback() {
     return (
         <>
             <div className={s.wrapper}>
-                <div className={s.forma__left}>ОФОРМЛЕНИЕ ЗАЯВКИ</div>
-                <div className={s.forma__right}>Обратная связь
-                </div>
+                <FeedbackApplication/>
+                <FeedbackForm/>
             </div>
         </>
     )
